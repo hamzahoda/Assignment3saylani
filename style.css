@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  line-height: 1.42857143;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(Merriweather/Merriweather-Light.ttf);
+}
+
+/* navbar */
+
+#navbar_top {
+  background-color: #316DC3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+/* icons */
+
+#icons_navbar_top ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-right: 50px;
+}
+
+#icons_navbar_top ul li {
+  margin: 8px 9px 0px 4px;
+}
+
+#icons_navbar_top ul li img {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+
+/* navbar text */
+
+#top_navbar_text p {
+  color: rgb(248, 248, 248);
+  font-size: 15px;
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
+
+/* nav bar buttons */
+
+.navbar {
+  padding-bottom: -110px !important;
+}
+
+#menubar {
+  border: 1px solid rgb(226, 223, 223);
+}
+
+#top_navbar_buttons {
+  margin-right: 6%;
+}
+
+#top_navbar_buttons input {
+  font-size: 11px;
+  padding: 4px 10px;
+  border: 0.1em solid rgb(11, 144, 11);
+  color: rgb(11, 144, 11);
+}
+
+/* saylani logo */
+
+#main_navbar_logo img {
+  width: 191px;
+  height: 52px;
+}
+
+#menuBar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menubarli ul li {
+  color: blue !important;
+  border-radius: 22px;
+  padding-left: 5px;
+}
+
+.menubarli ul li:hover {
+  background-color: #316DC3;
+}
+
+.menubarli ul li a:hover {
+  color: white !important;
+}
+
+#marque marquee {
+  width: 88%;
+  margin: 1% 6%;
+  color: white;
+  background-color: #316DC3;
+  padding: 3px;
+}
+
+/* intro */
+
+#intro {
+  background-color: rgb(250, 250, 250);
+  padding-top: 50px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.ab {
+  font-family: 'Merriweather';
+  font-weight: 600;
+  word-spacing: normal;
+  text-align: center;
+}
+
+.intro {
+  color: #316DC3;
+
+}
+
+#heading h1 {
+  font-size: 30px;
+  font-weight: bolder !important;
+}
+
+.duction {
+  color: green;
+}
+
+#Logo img {
+  display: block;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+#text {
+  text-align: center;
+  text-align: justify;
+  width: 75%;
+  display: block;
+  margin: auto;
+  padding: 14px;
+}
+
+/* info info */
+
+#info {
+  background-color: rgb(51, 64, 248);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+  padding: 75px;
+}
+
+.items {
+  margin: 20px 20px;
+}
+
+.items img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+.items p {
+  font-size: 16px;
+}
+
+.items p, h1 {
+  font-family: 'Merriweather';
+  color: rgb(246, 246, 246);
+  text-align: center;
+  font-weight: 600;
+}
+
+.items h1 {
+  font-size: 55px;
+}
+
+.month {
+  color: rgb(0, 255, 0);
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+
+/* cards*/
+
+#cards {
+  background-color: rgb(245, 245, 245) !important;
+  font-family: 'Merriweather';
+}
+
+#cardsbox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px 110px 20px 110px;
+  padding-bottom: 40px;
+
+}
+
+.card {
+  padding: 20px;
+  width: 360px !important;
+  border: 2px solid white;
+  box-shadow: 0px 10px 25px rgb(212, 211, 211);
+  margin: 20px 5px 20px 5px;
+
+}
+
+.card img {
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.card-body p {
+  text-align: center;
+  color: rgb(51, 64, 248);
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+#mainheading1 h1 {
+  padding-top: 60px;
+  font-size: 32px;
+}
+
+/* mission */
+
+#mission {
+  font-family: 'Merriweather';
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#boxheading {
+  margin-left: 70px;
+}
+
+.mini {
+  border: 1px solid rgb(224, 224, 224);
+  padding: 18px 0px 18px 15px;
+  margin: -20px 25px 40px 10px;
+  background-color: rgb(245, 245, 245);
+  width: 350px;
+}
+
+.mini h4 {
+
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 8px;
+  color: #316DC3;
+}
+
+#smallCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 770px;
+}
+
+.headingmission h3 {
+  display: flex;
+  margin: 40px 50px 30px 20px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #316DC3;
+}
+
+#upcoming {
+  margin: 32px 230px 50px 0px;
+}
+
+#upcoming h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #316DC3;
+}
+
+#upcoming marquee {
+  width: 270px;
+  height: 180px;
+  display: flex;
+  text-align: center;
+  text-align: justify;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(124, 124, 124);
+ 
+}
+
+/* images gallery */
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px auto 130px auto;
+}
+
+#gallery img {
+  width: 229px;
+  height: 10%;
+  padding: 1px;
+  padding-bottom: 20px;
+}
+
+/* footer details */
+
+#footerdetail {
+  background-color: rgb(39, 39, 41);
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+  padding: 48px 20px 10px 20px;
+}
+
+#footer_address {
+  width: 390px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#footer_address p {
+  margin-left: 43px;
+  margin-top: 30px;
+}
+
+#footer_address ul li {
+  display: flex;
+  padding-bottom: 6px;
+}
+
+#contactlinks ul {
+  display: flex;
+  list-style: none;
+}
+
+#contactlinks p {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Merriweather';
+  margin-left: 48px;
+}
+
+#contactlinks ul li img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 6px;
+  padding: 0px;
+}
+
+#usefullinks {
+  width: 360px;
+}
+
+#usefullinks hr {
+  background-color: rgb(14, 71, 6);
+}
+
+#usefullinks p {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Merriweather';
+}
+
+#contactlinks {
+  width: 360px;
+  height: 80px;
+  margin-right: 50px;
+}
+
+#copyright_bar {
+  background-color: #316DC3;
+  width: 100%;
+  color: white;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: -9px;
+}
+
+#copyright_bar p {
+  padding: 9px 0px 0px 110px;
+}
+
+#pagetopbutton {
+  position: fixed;
+  bottom: 10px;
+  right: 13px;
+  
+}
+
+#pagetopbutton button {
+  background-color:rgba(0, 0, 0, 0.164);
+  color: white;
+  padding: 0px 15px;
+  border-radius: 4px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  
+  
+}
+
+#pagetopbutton:hover{
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+
